@@ -1,0 +1,54 @@
+.prog-list {
+    max-width: 80rem;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    list-style: none;
+}
+
+.prog-item {
+    list-style: none;
+    margin: 1rem 0 -2.5rem 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.progress {
+    flex: 3;
+    padding: 0.35rem 0.35rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: 50px;
+}
+
+.prog-t {
+    font-weight: bold;
+    flex: 1;
+    color: #3c4043;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.prog-b{
+  appearance: none;
+  background-color: #fff;
+  border-style: none;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 25px;
+  justify-content: center;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 17px 24px;
+  position: relative;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 80px;
+  will-change: transform,opacity;
+  z-index: 0;
+}
