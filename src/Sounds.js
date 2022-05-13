@@ -8,7 +8,6 @@ import jibrish from './LoopFiles/JIBRISH.mp3'
 import lead1 from './LoopFiles/LEAD 1.mp3'
 import uuhoVoc from './LoopFiles/UUHO VOC.mp3'
 
-
 // Initiailize the sounds objects
 const Sounds = [
   {
